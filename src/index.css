@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Modo Blue / Oscuro Theme System */
+.modo-blue {
+  background-color: #031424 !important;
+  color: #e2e8f0 !important;
+}
+
+.modo-blue header {
+  background-color: rgba(4, 24, 44, 0.95) !important;
+  border-color: #0c3150 !important;
+}
+
+.modo-blue header .text-slate-900,
+.modo-blue header .text-\[\#00324D\] {
+  color: #f1f5f9 !important;
+}
+
+.modo-blue header .text-slate-600 {
+  color: #94a3b8 !important;
+}
+
+.modo-blue .bg-white {
+  background-color: #061e33 !important;
+  border-color: #0d3557 !important;
+}
+
+.modo-blue .bg-slate-50 {
+  background-color: #041728 !important;
+  border-color: #0c3150 !important;
+}
+
+.modo-blue .bg-slate-100 {
+  background-color: #07253e !important;
+  border-color: #0e3b61 !important;
+}
+
+.modo-blue .border-slate-200,
+.modo-blue .border-slate-300 {
+  border-color: #0d3557 !important;
+}
+
+.modo-blue .border-slate-100 {
+  border-color: #0a2d4b !important;
+}
+
+.modo-blue .text-slate-900 {
+  color: #f8fafc !important;
+}
+
+.modo-blue .text-slate-800 {
+  color: #f1f5f9 !important;
+}
+
+.modo-blue .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+.modo-blue .text-slate-600 {
+  color: #94a3b8 !important;
+}
+
+.modo-blue .text-slate-500 {
+  color: #64748b !important;
+}
+
+.modo-blue footer {
+  background-color: #04192b !important;
+  border-color: #0a2b47 !important;
+}
+
+.modo-blue .text-\[\#00324D\] {
+  color: #38bdf8 !important;
+}
+
+.modo-blue .border-\[\#00324D\] {
+  border-color: #38bdf8 !important;
+}
+
+.modo-blue input,
+.modo-blue select {
+  background-color: #041728 !important;
+  border-color: #0e3b61 !important;
+  color: #f8fafc !important;
+}
+
+.modo-blue .shadow-sm,
+.modo-blue .shadow-md,
+.modo-blue .shadow-lg,
+.modo-blue .shadow-xs,
+.modo-blue .shadow-2xs {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45) !important;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-certificate-container {
+    box-shadow: none !important;
+    border: 2px solid #39A900 !important;
+    page-break-inside: avoid;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 24px !important;
+  }
+}

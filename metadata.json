@@ -1,0 +1,6 @@
+{
+  "name": "SENA Inducción Digital",
+  "description": "Plataforma interactiva para la gestión y apropiación del proceso de inducción de aprendices del SENA: identidad institucional, derechos, deberes y evaluación de conocimientos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

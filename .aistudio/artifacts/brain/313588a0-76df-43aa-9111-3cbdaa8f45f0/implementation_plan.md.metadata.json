@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de implementación para la integración y sincronización en tiempo real de aprendices SENA con Google Sheets en Google Drive. Contempla la configuración de OAuth con alcances mínimos, creación automática de la hoja de cálculo con pestañas de Caracterización y Progreso de Inducción, servicio cliente de sincronización automática por eventos, panel de control para instructores con enlace directo a Drive y verificación de compilación.",
+  "updatedAt":  "2026-10-28T16:43:58.183156828Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
